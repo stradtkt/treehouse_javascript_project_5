@@ -4,7 +4,7 @@ $(function() {
 =            Global Variables            =
 ========================================*/
 
-  var employeeURL = 'https://randomuser.me/api/?results=12&nat=us';
+  var employeeURL = 'https://randomuser.me/api/?results=128&nat=us';
   var dataOptions = {
     dataType: 'json'
   };
@@ -27,7 +27,7 @@ $(function() {
     employeeHTML += '<p class="email">' + profile.email + '</p>';
     employeeHTML += '<p class="city">' + profile.location.city + '</p>';
     $("tr").append(employeeHTML);
-  }); 
+  });
 
 
 /*=====  End of Home Directory Page  ======*/
@@ -61,7 +61,7 @@ var modalHTML;
 
 /*=====  End of Modal Content  ======*/
       all();
-		
+
 	}
 
 /*=======================================
@@ -87,7 +87,7 @@ var modalHTML;
   $('.overlay').hide();
   $('td').on('click', function() {
     $('.overlay').show();
-  }); 
+  });
   $('.close').on('click', function() {
     $('.overlay').hide();
   });
@@ -145,32 +145,28 @@ function hover() {
   }, function() {
     //when leaving the item and not hovering over the item it will change to this color
     $(this).css('background-color', 'rgba(119,119,119,0.07)');
-  }); 
+  });
 
   //Search button on hover
   $('#search').hover(function() {
-  $(this).css('background', 'linear-gradient(to top, rgba(119,119,119,0.5), rgba(119,119,119,0.1))');
-  $(this).css('transition', '0.4s ease');
-  $(this).css('box-shadow', '1px 1px 3px 0.5px #222');
-  $(this).css('transition', '0.2s ease');
-  $(this).css('color', 'white');
+$(this).css('transition', '0.4s ease');
+$(this).css('box-shadow', '1px 1px 3px 0.5px #222');
+$(this).css('transition', '0.2s ease');
+$(this).css('color', 'dodgerblue');
 }, function() {
-  $(this).css('background', 'linear-gradient(to bottom, rgba(119,119,119,0.1), rgba(119,119,119,0.5))');
-  $(this).css('box-shadow', '2px 2px 10px 0.5px #222');
-  $(this).css('transition', '0.2s ease');
-  $(this).css('color', 'rgba(36,36,36,1)');
+$(this).css('box-shadow', '4px 4px 10px 0.8px #222');
+$(this).css('transition', '0.2s ease');
+$(this).css('color', 'rgba(36,36,36,1)');
 });
 
   //Reset button on hover
     $('#reset').hover(function() {
-  $(this).css('background', 'linear-gradient(to top, rgba(119,119,119,0.5), rgba(119,119,119,0.1))');
   $(this).css('transition', '0.4s ease');
   $(this).css('box-shadow', '1px 1px 3px 0.5px #222');
   $(this).css('transition', '0.2s ease');
-  $(this).css('color', 'white');
+  $(this).css('color', 'dodgerblue');
 }, function() {
-  $(this).css('background', 'linear-gradient(to bottom, rgba(119,119,119,0.1), rgba(119,119,119,0.0.5))');
-  $(this).css('box-shadow', '2px 2px 10px 0.5px #222');
+  $(this).css('box-shadow', '4px 4px 10px 0.8px #222');
   $(this).css('transition', '0.2s ease');
   $(this).css('color', 'rgba(36,36,36,1)');
 });
@@ -209,8 +205,8 @@ function hover() {
 =            SearchBar Section            =
 =========================================*/
 //this is creating the input for the searchbar
-var searchBox = '<div class="form-group"><input class="search" type="search" id="" placeholder="Search People...">';
-    searchBox += '<button id="search">Search</button><button type="reset" id="reset">Reset</button></div>';
+var searchBox = '<input class="search" type="search" id="" placeholder="Search People...">';
+    searchBox += '<button id="search">Search</button><button type="reset" id="reset">Reset</button>';
     //appending the searchbox
 $('.searchBarDiv').append(searchBox);
 function searchBar() {
@@ -239,7 +235,7 @@ function reset() {
     $('td').show();
     $('.no-results').hide();
 
-  }); 
+  });
 }
 
 /*=====  End of Searchbar Section  ======*/
