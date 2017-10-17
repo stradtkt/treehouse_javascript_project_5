@@ -1,0 +1,62 @@
+@media screen and (min-width: 1024px) {
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        height: 100%;
+    }
+    body {
+        display: inline-block !important;
+    }
+    table {
+        height: 100%;
+        width: 100% !important;
+
+    }
+    tr {
+        position: relative;
+        column-count: 3;
+        width: 100px !important;
+    }
+    img.profile-picture {
+        width: 90px !important;
+        height: 90px !important;
+        position: relative;
+        bottom: 55px;
+    }
+    #reset {
+
+        position: relative;
+        clear: both;
+        float: right;
+        left: 1% !important;
+        bottom: 50px;
+    }
+    #search {
+        display: inline-block;
+        position: relative;
+        clear: both;
+        float: left;
+        top: 5px !important;
+        left: 10px !important;
+    }
+    .searchBarDiv input.search {
+        width: 99% !important;
+        height: 50px;
+    }
+    td.employee-profile {
+        width: 300px !important;
+        height: 100% !important;
+    }
+    tr.employee-tr {
+        width: 100% !important;
+    }
+    #employee-section {
+        width: 90% !important;
+    }
+    .searchBarDiv {
+    	display: inline-block;
+    	padding: 10px 0;
+    }
+}

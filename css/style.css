@@ -1,12 +1,12 @@
 /*
 google font import
 */
-@import url('./media/at1450px.css') only screen and (min-width: 1450px);
-@import url('./media/at1090px.css') only screen and (min-width: 1090px);
+/*@import url('./media/at1450px.css') only screen and (min-width: 1450px);
+@import url('./media/at1024px.css') only screen and (min-width: 1024px);
 @import url('./media/at780px.css') only screen and (min-width: 780px);
 @import url('./media/at430px.css') only screen and (min-width: 430px);
-@import url('./media/at380px.css') only screen and (min-width: 380px);
-@import url('./media/at320px.css') only screen and (min-width: 320px);
+@import url('./media/at370px.css') only screen and (min-width: 380px);
+@import url('./media/at320px.css') only screen and (min-width: 320px);*/
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 
 html,
@@ -29,7 +29,7 @@ body {
 	border: 2px solid rgba(100,100,100,0.5);
 }
 td {
-	height: 230px;
+	height: 190px;
 	width: 400px;
 	display: inline-block;
 	padding: 20px 10px;
@@ -90,252 +90,9 @@ input.search {
 	-ms-border-radius: 4px;
 
 }
-#reset {
-	text-align: center;
-	position: relative;
-	left: 27%;
-}
-#search {
-	position: relative;
-	bottom: 50px;
-	left: -20%;
-}
+
 
 .searchBarDiv {
 	display: inline-block;
 	padding: 50px 0;
-}
-html,body {
-	/*padding: 0;
-	margin: 0;
-	overflow-x: hidden;
-	background: linear-gradient(to right, rgba(119,119,119,0.07), rgba(119,119,119,0.13));
-	min-height: 100%;*/
-}
-body {
-	/*position: relative;*/
-}
-
-.overlay{
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background-color: rgba(0,0,0,0.5); /*dim the background*/
-}
-
- td {
- 	/*width: 430px;
-	height: 230px;
-	display: inline-block;
-	margin: 15px;
-	position: relative;
-	left: 90px;
-	box-shadow: 1px 1px 7px 1px #777;
-	-webkit-box-shadow: 1px 1px 7px 1px #777;
-	-moz-box-shadow: 1px 1px 7px 1px #777;
-	border-radius: 6px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;*/
- }
-
-.employee-section {
-	/*padding-top: 70px;*/
-}
-img.profile-picture {
-	/*width: 180px;
-	height: 180px;
-	padding: 10px;
-	border-radius: 50%;
-	background-position: 50%;
-	position: relative;
-	left: 10px;
-	top: 35px;*/
-}
-.contact-info {
-	/*float: right;
-	position: relative;
-	right: 20px;
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 15px;*/
-}
-.email {
-	/*font-size: 15px;
-	color: darkblue;*/
-}
-.name {
-	/*font-weight: bold;*/
-}
-.fa-arrow-right {
-	/*font-size: 30px;
-	z-index: 1000;
-	position: relative;
-	left: 305px;
-	top: 170px;*/
-}
-.fa-arrow-left {
-	/*font-size: 30px;
-	z-index: 1000;
-	position: relative;
-	top: 170px;
-	left: 37px;*/
-}
-a {
-	/*text-decoration: none;
-	color: #000;*/
-}
-
-.modal {
-	/*width: 400px;
-	height: 900px;
-	margin: 0 auto;
-	background: linear-gradient(to bottom rgba(119,119,119,0.4), rgba(119,119,119,0.2));
-	padding-top: 50px;*/
-}
-.modal-content {
-	/*background: linear-gradient(to top, #f4f4f4, #ccc);*/
-}
-.text-content {
-	/*padding-bottom: 20px;*/
-}
-.bottom-content {
-	/*padding: 40px 0;*/
-}
-
-.picture {
-	/*width: 200px;
-	height: 200px;
-	position: relative;
-	left: 45px;
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	margin-top: 40px;
-	background-position: 50%;*/
-}
-.hr {
-	/*border: 0.1px solid rgba(119,119,119,0.3);
-	width: 400px;*/
-}
-.close {
-	/*color: #000;
-	font-size: 36px;
-	padding: 10px 10px 0 0;
-	opacity: 0.5;*/
-}
-.close:hover {
-	/*color: red;
-	opacity: 1;
-	transition: 0.3s ease;*/
-}
-
-.searchBarDiv {
-	/*float: right;
-	padding: 20px 40px 0 40px;*/
-}
-.searchBarDiv input {
-	/*width: 300px;
-	height: 25px;
-	border: none;
-	-moz-box-shadow: 1px 1px 10px 1px rgba(36,36,36, 0.6);
-	-webkit-box-shadow: 1px 1px 10px 1px rgba(36,36,36, 0.6);
-	box-shadow: 1px 1px 10px 1px rgba(36,36,36, 0.6);
-	border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 1px;
-	position: relative;
-	right: 40px;
-	top: 2px;
-	color: #000;
-	font-size: 18px;
-	font-weight: bold;*/
-}
-
-#search {
-	/*width: 60px;
-	height: 30px;
-	position: relative;
-	right: 30px;
-	border-radius: 6px;
-	background: linear-gradient(to bottom, rgba(119,119,119,0.1), rgba(119,119,119,0.5));
-	border: none;
-	font-size: 12px;
-	-webkit-box-shadow: 2px 2px 10px .5px #222;
-	-moz-box-shadow: 2px 2px 10px .5px #222;
-	box-shadow: 2px 2px 10px .5px #222;
-	color: #000;*/
-}
-#reset {
-	/*width: 60px;
-	height: 30px;
-	position: relative;
-	right: 25px;
-	border-radius: 6px;
-	background: linear-gradient(to bottom, rgba(119,119,119,0.1), rgba(119,119,119,0.5));
-	border: none;
-	font-size: 12px;
-	-webkit-box-shadow: 2px 2px 10px .5px #222;
-	-moz-box-shadow: 2px 2px 10px .5px #222;
-	box-shadow: 2px 2px 10px .5px #222;
-	color: #000;*/
-}
-
-input[placeholder="Search People..."]::-webkit-input-placeholder,
-input[placeholder="Search People..."]::-moz-input-placeholder {
-	/*font-family: 'Pontano Sans', sans-serif;
-	color: #000;
-	font-size: 18px;
-	font-weight: bold;
-	position: relative;
-	top: 3px;
-	left: 4px;*/
-}
-.contact-info .email {
-	/*font-size: 14px;*/
-}
-.contact-info {
-	/*position: relative;
-	top: 40px;*/
-}
-
-.name {
-	/*text-transform: capitalize;*/
-}
-#last-name {
-    /*text-transform:capitalize;*/
-}
-.city {
-	/*text-transform:capitalize;*/
-}
-.street {
-	/*text-transform: capitalize;*/
-}
-.name {
-	/*font-size: 25px;*/
-}
-.email {
-	/*font-size: 15px;
-	font-family: 'Quattrocento Sans', sans-serif;*/
-}
-.username {
-	/*font-size: 15px;
-	font-family: 'Quattrocento Sans', sans-serif;*/
-}
-.city {
-	/*font-size: 15px;
-	font-family: 'Quattrocento Sans', sans-serif;*/
-}
-.number {
-	/*font-size: 15px;
-	font-family: 'Quattrocento Sans', sans-serif;*/
-}
-.country {
-	/*font-size: 15px;
-	font-family: 'Quattrocento Sans', sans-serif;*/
-}
-.street {
-	/*font-size: 18px;
-	font-family: 'Quattrocento Sans', sans-serif;*/
 }
